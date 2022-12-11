@@ -12,7 +12,7 @@
 #
 # A script to make a directory and then the script deletes itself
 
-# BACK UP THIS SCRIPT AS make-dir-then-del.sh.bak BEFORE TESTING!!
+# BACK UP THIS SCRIPT AS BEFORE TESTING!!
 # cp ./make-dir-then-del.sh ./make-dir-then-del.sh.bak
 
 # OPEN IN NANO AND REPLACE [newdir] WITH DIRECTORY NAME
