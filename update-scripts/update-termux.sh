@@ -4,11 +4,14 @@
 # 制作者：虹川郷鬼
 # バージョン：1.00a
 # 
+# このスクリプトはTermuxを更新します。このスクリプトを使用する前に、
+# F-Droidを使用してTermuxをインストールする必要があります。
+# 
 # [en-US]
 # Author: Satoki Nijikawa
 # Version: 1.00a
 # 
-# This script updates Termux. You must have used Fdroid to install Termux
+# This script updates Termux. You must have used F-Droid to install Termux
 # before you can use this script.
 
 apt update  # Updates repositories
