@@ -13,7 +13,7 @@
 # This script installs some helpful packages.
 
 sudo pacman -Syu		# Refreshes repositories and upgrades packages
-sudo pacman -S ntfs-3g  # Installs NTFS-3G, which allows NTFS partitions to be read-writable
+sudo pacman -S ntfs-3g		# Installs NTFS-3G, which allows NTFS partitions to be read-writable
 sudo pacman -S neofetch		# Installs neofetch
 sudo pacman -S vlc		# Installs VLC Media Player
 sudo pacman -S libreoffice	# Installs LibreOffice
@@ -49,6 +49,30 @@ sudo pacman -S git		# Installs git
 sudo pacman -S base-devel	# Installs basic development tools
 sudo pacman -S python		# Installs Python 3
 sudo pacman -S gcc		# Installs GCC, a compiler for C and C++
+sudo pacman -S gcc-libs		# Installs libraries for GCC
+sudo pacman -S cmake		# Installs CMAKE
+sudo pacman -S ninja		# Installs Ninja
+
+# These install some miscellaneous packages
+
+sudo pacman -S ccache
+sudo pacman -S expat
+sudo pacman -S gdk-pixbuf2
+sudo pacman -S glib2
+sudo pacman -S libid3tag
+sudo pacman -S lilv
+sudo pacman -S libmad
+sudo pacman -S libogg
+sudo pacman -S portaudio
+sudo pacman -S portmidi
+sudo pacman -S libsndfile
+sudo pacman -S suil
+sudo pacman -S twolane
+sudo pacman -S libvorbis
+sudo pacman -S soundtouch
+sudo pacman -S ffmpeg
+sudo pacman -S portsmf
+sudo pacman -S sbsms
 
 echo $'All done!'
 echo $'Now run \'yay.sh\' to get yourself an AUR wrapper!'
