@@ -4,11 +4,13 @@
 # 制作者：虹川郷鬼
 # バージョン：1.00a
 # 
+# このスクリプトはMSYS2を単純に更新します。
+# 
 # [en-US]
 # Author: Satoki Nijikawa
 # Version: 1.00a
 # 
-# This script simply automates updating MSYS2.
+# This script simply updates MSYS2.
 
 pacman -Syu
 echo $' '
