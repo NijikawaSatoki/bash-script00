@@ -12,4 +12,6 @@
 
 sudo pacman -Syu
 echo $' '
-echo $'It should be recommended to update at least once every 24 hours. Or don\'t. That works too, I guess...'
+echo $'I recommend upgrading packages at least once every 24 hours.'
+echo $'If you don\'t want to upgrade, then that\'s fine. It\'s on '
+echo $'you, though, if something goes wrong in that scenario.'
