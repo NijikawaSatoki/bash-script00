@@ -10,6 +10,6 @@
 # 
 # A script to make a directory and then go to the new directory
 
-# REPLACE [newdir] WITH DIRECTORY NAME
+# OPEN IN NANO AND REPLACE [newdir] WITH DIRECTORY NAME
 mkdir [newdir]
 cd [newdir]
