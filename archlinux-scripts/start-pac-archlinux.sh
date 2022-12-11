@@ -13,6 +13,7 @@
 # This script installs some helpful packages.
 
 sudo pacman -Syu		# Refreshes repositories and upgrades packages
+sudo pacman -S ntfs-3g  # Installs NTFS-3G, which allows NTFS partitions to be read-writable
 sudo pacman -S neofetch		# Installs neofetch
 sudo pacman -S vlc		# Installs VLC Media Player
 sudo pacman -S libreoffice	# Installs LibreOffice
