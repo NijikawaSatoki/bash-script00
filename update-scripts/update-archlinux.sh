@@ -4,11 +4,13 @@
 # 制作者：虹川郷鬼
 # バージョン：1.00a
 # 
+# このスクリプトはArch Linuxを単純に更新します。
+# 
 # [en-US]
 # Author: Satoki Nijikawa
 # Version: 1.00a
 # 
-# This script simply automates updating Arch Linux.
+# This script simply updates Arch Linux.
 
 sudo pacman -Syu  # Refreshes repositories and upgrades packages
 echo $' '
