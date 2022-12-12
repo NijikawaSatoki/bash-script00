@@ -14,12 +14,12 @@ echo $'Directory \'localrepo\' has been created at ~'
 
 ## Clones some of my repos
 ## Currently counted at two (2) repositories
-mkdir ~/Desktop/localrepo/NijikawaSatoki
-git clone https://github.com/NijikawaSatoki/bash-script00.git ~/Desktop/localrepo/NijikawaSatoki/bash-script00/		# Clones repo 'bash-script00' to localrepo/
+mkdir ~/localrepo/NijikawaSatoki
+git clone https://github.com/NijikawaSatoki/bash-script00.git ~/localrepo/NijikawaSatoki/bash-script00/		# Clones repo 'bash-script00' to localrepo/
 echo $' '
 echo $'Repository \'bash-script00\' cloned to ~/localrepo/NijikawaSatoki/bash-script00/'
 echo $' '
-git clone https://github.com/NijikawaSatoki/niji-study-code.git ~/Desktop/localrepo/NijikawaSatoki/niji-stduy-code	# Clones repo 'niji-study-code' to localrepo/
+git clone https://github.com/NijikawaSatoki/niji-study-code.git ~/localrepo/NijikawaSatoki/niji-stduy-code	# Clones repo 'niji-study-code' to localrepo/
 echo $' '
 echo $'Repository \'niji-study-code\' cloned to ~/localrepo/NijikawaSatoki/niji-study-code/'
 echo $' '
