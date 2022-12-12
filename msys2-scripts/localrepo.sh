@@ -24,3 +24,6 @@ echo $' '
 echo $'Repository \'niji-study-code\' cloned to ~/localrepo/NijikawaSatoki/niji-study-code/'
 echo $' '
 echo $'All done! Have a nice day! (^^'
+
+## You can clone your own repos with this script if you wish. Just input
+# git clone [repo] [target_dir]
